@@ -1,4 +1,4 @@
-import { ArrowDown, ExternalLinkIcon, Github } from "lucide-react"
+import { ArrowDown, Github } from "lucide-react"
 
 const projects = [
     {

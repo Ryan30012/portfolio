@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-function StarBackground (params:any) {
+function StarBackground () {
     const  [stars, setStars] = useState<any[]>([]);
     const  [meteors, setMeteors] = useState<any[]>([]);
 
