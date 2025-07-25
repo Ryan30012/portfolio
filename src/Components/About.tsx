@@ -23,7 +23,7 @@ function About() {
                         When I'm not coding, you can find me at the gym, on the volleyball court, or exploring the latest tech trends.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/80 transition-colors duration-300">
+                        <a href="/CV-Ryan-2025.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/80 transition-colors duration-300">
                             Download My CV
                         </a>
                     </div>
