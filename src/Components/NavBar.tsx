@@ -54,7 +54,7 @@ function NavBar () {
                     className="md:hidden text-foreground z-50"
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 >
-                    {isMenuOpen ? <X size={24}/> : <Menu size={24}/>}
+                    <a href="#hero">{isMenuOpen ? <X size={24}/> : <Menu size={24}/>}</a>
                 </button>
 
 
