@@ -3,7 +3,7 @@ import {  useState, useEffect } from 'react';
 import cn from "../Lib/utils";
 
 function ThemeToggle() {
-    const [isDarkMode, setIsDarkMode] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
         const storedTheme = localStorage.getItem('theme');
@@ -27,7 +27,6 @@ function ThemeToggle() {
             setIsDarkMode(true);
         }
     };
-
 
     return (
         <button onClick={toggleTheme} className={cn("fixed max-sm:hidden top-4 right-5 z-50 px-2 py-0.5",
